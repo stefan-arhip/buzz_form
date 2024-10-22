@@ -1,0 +1,27 @@
+object Form1: TForm1
+  Left = 338
+  Height = 240
+  Top = 124
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '3.6.0.0'
+  object Button1: TButton
+    Left = 56
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Buzz'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object CheckBox1: TCheckBox
+    Left = 156
+    Height = 19
+    Top = 45
+    Width = 129
+    Caption = 'Sound from resource'
+    TabOrder = 1
+  end
+end
